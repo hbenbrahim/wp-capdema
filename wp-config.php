@@ -22,7 +22,7 @@ define('DB_NAME', 'capdema');
 define('DB_USER', 'root');
 
 /** MySQL database password */
-define('DB_PASSWORD', '');
+define('DB_PASSWORD', 'root');
 
 /** MySQL hostname */
 define('DB_HOST', 'localhost');
@@ -42,14 +42,14 @@ define('DB_COLLATE', '');
  *
  * @since 2.6.0
  */
-define('AUTH_KEY',         '<:kbsW84&>`*Z|,<[a}7+12Z|Zpdg[F%4K)t|D<PE!HdS/{=EEwpwPhy%Go|,+w@');
-define('SECURE_AUTH_KEY',  'L0ICSHQl9|~n8d)r`ag>&}ky$oLP-:SZbN?;-2!f-oT*x|[7%Q0.avxTz<*qc+Dz');
-define('LOGGED_IN_KEY',    '.5@0V]+^:#Mv=!6YTkgktx`Oz>0KZAUOK7|k}N{lqPYap`N>8r.rPAZx#[|78)KL');
-define('NONCE_KEY',        'ko|!jG$,.C6UUn]pK7@Yce*beX4yax w>(7y3C.1Z*d_8f8#3WVxxJ-?N[.2?0<v');
-define('AUTH_SALT',        'MZO7xu/fHe{_iqv!_-1/u+/:wGl+&B{3,Qc$CK&_nr0?do~K&_)zQ^$a=02*(pfD');
-define('SECURE_AUTH_SALT', '&(*K|oT!)PHNS?Iam.ySR6%It&269EZHuu,^,dM,|YD^:6^yRtx<~7Fr51MzVi5H');
-define('LOGGED_IN_SALT',   '2SN-`Kw`C|PkMda@Hx+rg!z, JKNuTj<o<G1X5;Et|!1j/9B2][BWVGrXP g--.b');
-define('NONCE_SALT',       '6t{VKX6.F/^q:DZ_I^+q,MLQy<`ZtZUJOf<^=>/1<3vaiu*_S?IL2.8huCaj`3*Z');
+define('AUTH_KEY',         'y {/g$R6+P(gfE3HuC`;MI4t0+l|&5%=%u2E^@8MnZZ,LJ3*xCS/%.W4xW{7AMsO');
+define('SECURE_AUTH_KEY',  'nN(Lx,#-O[[j&JWUN-Vf)Zj f8kU-km9VZ@]Z~C_G4!zZ<i,/sQ=+#qMUWP3;hkt');
+define('LOGGED_IN_KEY',    '{#|!~;:@Y4Xv:t|I-:+]g*z8|hJ3yM%v=I|!9]I.a]K[#=)kAufIDK].VlFep|PR');
+define('NONCE_KEY',        'yD$_/JAETYO-?<;CQ&&|NrJyN,q>fe,3C7S#r4/+|?-IvS=vKAnV.DfWWS|c9dhO');
+define('AUTH_SALT',        'ULB)`3@|/rIH+wo(y4[:nv*+g-/<:8*S3=+|vY[l9YdAr^R-0wG2_gHR[wHIhLKR');
+define('SECURE_AUTH_SALT', 'f=8+[fj)p0<p0c~SjZba*1g+=1TyVF?~<4d+&^ xhNb$I!o<?2gE5z]l^)KoLz>E');
+define('LOGGED_IN_SALT',   '`2qF;lX@vVsfmNvsX+lMr9;X:<U7AzuCPa&t^=+(HUdtzpBx@-TwFeJc!6@qnL|V');
+define('NONCE_SALT',       'Y]PZ4UNsm2-qgc4<`No)-y-_|dYY^sCV0EFV{[LRJ~*[yM5RhRg8@Ra.x,tOuo#[');
 
 /**#@-*/
 
@@ -59,7 +59,7 @@ define('NONCE_SALT',       '6t{VKX6.F/^q:DZ_I^+q,MLQy<`ZtZUJOf<^=>/1<3vaiu*_S?IL
  * You can have multiple installations in one database if you give each a unique
  * prefix. Only numbers, letters, and underscores please!
  */
-$table_prefix  = 'cd_';
+$table_prefix  = 'cpd_';
 
 /**
  * For developers: WordPress debugging mode.
@@ -78,4 +78,3 @@ if ( !defined('ABSPATH') )
 
 /** Sets up WordPress vars and included files. */
 require_once(ABSPATH . 'wp-settings.php');
-
